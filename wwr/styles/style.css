@@ -163,7 +163,7 @@ footer a:hover {
     width: 100%;
 }
 
-body { font-family:Source Sans Pro, Helvetica, sans-serif;}
+body { font-family: Source Sans Pro, Helvetica, sans-serif;}
 
 h2 {
     margin: 0;
@@ -213,6 +213,40 @@ h4{
     font-family: "Montserrat";
 }
 
+    /* rivers html styles */
+#title {
+
+    text-align: center;
+    padding: 3%;
+    font-size: xx-large;
+}
+
+
+.river-img {
+    float: bottom;
+    border: 10px solid #d9c2a3;
+    width: 30%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    float: left;
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: none;
+   
+}
+h5{
+    line-height: 1.6;
+    font-family: "Rock Salt";
+    font-size: xx-large;}
+
+p{font-family: "Montserrat";}   
+
+.river-title {
+    font-family: "Rock Salt";
+    
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -253,4 +287,7 @@ h4{
     footer {
         margin-top: 25px;
     }
+
+
+
 }
